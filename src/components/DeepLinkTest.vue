@@ -12,7 +12,7 @@ export default {
     openApp() {
       // 1. Definisikan URL scheme untuk aplikasi Anda.
       // Ganti 'myappb://' dengan URL scheme yang sesuai dengan konfigurasi AndroidManifest.xml Anda.
-      const appUrl = "myappb://";
+      const appUrl = "mydlapp://";
 
       // 2. Definisikan URL Play Store untuk fallback.
       // Ganti 'com.contoh.aplikasi' dengan package name aplikasi Anda di Play Store.
