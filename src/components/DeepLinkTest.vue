@@ -10,7 +10,8 @@ export default {
   name: "OpenAppButton", // Nama komponen Vue
   methods: {
     openApp() {
-      const appUrl = "mydlapp://";
+      // const appUrl = "mydlapp://";
+      const appUrl = "mecollectproline://";
       const playStoreUrl =
         "https://play.google.com/store/apps/details?id=com.contoh.aplikasi";
       window.location.href = appUrl;
