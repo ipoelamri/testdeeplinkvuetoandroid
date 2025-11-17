@@ -11,7 +11,7 @@ export default {
   methods: {
     openApp() {
       // const appUrl = "mydlapp://";
-      const appUrl = "ecollectionmodex://";
+      const appUrl = "ecollectionmodex://splash";
 
       window.location.href = appUrl;
 
